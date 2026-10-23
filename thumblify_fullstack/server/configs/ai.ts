@@ -1,0 +1,9 @@
+import { GoogleGenAI } from "@google/genai";
+
+const apiKey = process.env.GEMINI_API_KEY;
+if (!apiKey) {
+  throw new Error("GEMINI_API_KEY is not configured. Add it to the server environment.");
+}
+
+const ai = new GoogleGenAI({ apiKey });
+export default ai;
