@@ -21,7 +21,7 @@ export default function Navbar() {
             >
                 {/* Logo */}
                 <Link to='/'>
-                    <img src='/logo.svg' alt='Contentfy logo' className='h-8 w-auto' />
+                    <img src='/logo.svg' alt='Contentyfy logo' className='h-8 w-auto' />
                 </Link>
 
                 {/* Desktop Menu */}

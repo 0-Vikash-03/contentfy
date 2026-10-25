@@ -77,7 +77,7 @@ export default function Footer() {
                 </div>
 
                 <p className='mt-4 text-blue-200 text-sm'>
-                    © {new Date().getFullYear()} Contentfy - Vikash
+                    © {new Date().getFullYear()} Contentyfy - Vikash
                 </p>
             </motion.div>
         </footer>
