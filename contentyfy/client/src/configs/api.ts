@@ -1,7 +1,7 @@
 import axios from "axios";
 
 const api = axios.create({
-  baseURL: import.meta.env.VITE_API_URL || "https://ai-saas-project-66sm.onrender.com",
+  baseURL: import.meta.env.VITE_API_URL || "https://contentfy.onrender.com",
   timeout: 120000, // ✅ 2 minutes
   withCredentials: true,
 });
